@@ -317,10 +317,11 @@ def start():
         
         for pu in powerUps_shield:
             points = [
-                [-12, -6],
-                [-8, -10],
-                [8, -10],
-                [12, -6],
+                [-10, -6],
+                [-6, -10],
+                [0, -8],
+                [6, -10],
+                [10, -6],
                 [0, 10]
             ]
             for i in range(len(points)):
